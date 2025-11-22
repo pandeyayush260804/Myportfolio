@@ -3,62 +3,95 @@ import { motion } from 'framer-motion'
 import { Github, ExternalLink } from 'lucide-react'
 
 const PROJECTS = [
+  // {
+  //   title: '🩺 Mammogram Malignancy Detector',
+  //   desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
+  //   ss: '/mamo.png',
+  //   tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
+  //   live: '#',
+  //   code: 'https://github.com/kunjdesai/mammo-detector'
+  // },
+  // {
+  // title: '🧠 Mental Health Analyzer',
+  // desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
+  // ss: '/mentalhealth.jpg',
+  // tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
+  // live: 'https://mental-health-analyzer.streamlit.app/',
+  // code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
+  // },
+  // {
+  //   title: '🤖 Indian Sign Language Interpreter',
+  //   desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
+  //   ss: '/ISL.png',
+  //   tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
+  //   live: '#',
+  //   code: 'https://github.com/kunjdesai/ISL-Interpreter'
+  // },
+  // {
+  // title: '💼 Portfolio Website',
+  // desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
+  // ss: '/portfolio.jpg',
+  // tech: ['React', 'Framer Motion', 'Tailwind CSS'],
+  // live: '#',
+  // code: 'https://github.com/kunj2803/Kunj-Portfolio'
+  // },
+  // {
+  //   title: '💬 DocuChat – Gemini AI Chatbot',
+  //   desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
+  //   ss: '/Docuchat.png',
+  //   tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
+  //   live: 'https://docuchat-chatbot.streamlit.app/',
+  //   code: 'https://github.com/kunj2803/Docuchat-Chatbot'
+  // },
+  // {
+  //   title: '📊 ProfileX – Data Profiler',
+  //   desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
+  //   ss: '/ProfileX.png',
+  //   tech: ['Streamlit', 'Pandas', 'Plotly'],
+  //   live: 'https://profilex.streamlit.app/',
+  //   code: 'https://github.com/kunjdesai/ProfileX'
+  // },
+  // {
+  //   title: '🧬 Breast Cancer Prediction',
+  //   desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
+  //   ss: '/breastpred.jpg',
+  //   tech: ['scikit-learn', 'XGBoost', 'Pandas'],
+  //   live: '#',
+  //   code: 'https://github.com/kunjdesai/BreastCancerPrediction'
+  // }
   {
-    title: '🩺 Mammogram Malignancy Detector',
-    desc: 'Hybrid CNN + YOLOv8 ensemble for full-image breast cancer detection with ROI preprocessing and sliding-window inference.',
-    ss: '/mamo.png',
-    tech: ['TensorFlow', 'Keras', 'OpenCV', 'YOLOv8'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/mammo-detector'
+    title: 'TO DO App ',
+    desc: "A simple and responsive To-Do List Web App built using HTML, CSS, and JavaScript",
+    ss: '/todo.png',
+    tech: ['HTML', 'CSS', 'JS'],
+    live: 'https://todoapp-js-delta.vercel.app/',
+    code: 'https://github.com/pandeyayush260804/todoapp-js'
   },
   {
-  title: '🧠 Mental Health Analyzer',
-  desc: 'NLP-based system that analyzes user text to detect signs of anxiety, stress, and depression using sentiment analysis and transformer models.',
-  ss: '/mentalhealth.jpg',
-  tech: ['Python', 'Transformers', 'NLTK', 'scikit-learn'],
-  live: 'https://mental-health-analyzer.streamlit.app/',
-  code: 'https://github.com/kunj2803/Mental-Health-Analyzer'
+    title: 'Netflix Clone',
+    desc: "A simple and responsive UI clone of Netflix built using HTML and Tailwind CSS",
+    ss: '/net.png',
+    tech: ['HTML', 'Tailwind CSS'],
+    live: 'https://ui-m-clone.vercel.app/',
+    code: 'https://github.com/pandeyayush260804/ui-m-clone'
   },
   {
-    title: '🤖 Indian Sign Language Interpreter',
-    desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
-    ss: '/ISL.png',
-    tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+    title: 'AIRBNB Clone',
+    desc: "A simple and responsive UI clone of AIRBNB built using HTML and Tailwind CSS",
+    ss: '/air.png',
+    tech: ['HTML', 'Tailwind CSS'],
+    live: 'https://ui-h-clone.vercel.app/',
+    code: 'https://github.com/pandeyayush260804/ui-h-clone'
   },
   {
-  title: '💼 Portfolio Website',
-  desc: 'A modern and responsive portfolio built with React and Framer Motion, showcasing projects, skills, and achievements with smooth animations and interactive UI.',
-  ss: '/portfolio.jpg',
-  tech: ['React', 'Framer Motion', 'Tailwind CSS'],
-  live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
-  },
-  {
-    title: '💬 DocuChat – Gemini AI Chatbot',
-    desc: 'An intelligent document interaction app powered by Gemini API that understands and answers queries from uploaded PDFs.',
-    ss: '/Docuchat.png',
-    tech: ['Gemini API', 'LangChain', 'Python', 'Streamlit'],
-    live: 'https://docuchat-chatbot.streamlit.app/',
-    code: 'https://github.com/kunj2803/Docuchat-Chatbot'
-  },
-  {
-    title: '📊 ProfileX – Data Profiler',
-    desc: 'Smart data profiling and preprocessing web app for CSV datasets — feature summary, missing value handling, and visualization.',
-    ss: '/ProfileX.png',
-    tech: ['Streamlit', 'Pandas', 'Plotly'],
-    live: 'https://profilex.streamlit.app/',
-    code: 'https://github.com/kunjdesai/ProfileX'
-  },
-  {
-    title: '🧬 Breast Cancer Prediction',
-    desc: 'ML pipeline using SVC, Random Forest, and XGBoost with SMOTE for imbalanced dataset handling and model optimization.',
-    ss: '/breastpred.jpg',
-    tech: ['scikit-learn', 'XGBoost', 'Pandas'],
-    live: '#',
-    code: 'https://github.com/kunjdesai/BreastCancerPrediction'
+    title: 'Chrome Dino Game',
+    desc: "A UI clone of the Chrome Dino game is a side-scrolling platformer interface that replicates the original game's simple, pixel-art aesthetic and core mechanics.",
+    ss: '/dino.png',
+    tech: ['JS', 'CANVAS'],
+    live: 'https://dino-game-pi-nine.vercel.app/',
+    code: 'https://github.com/pandeyayush260804/dino-game'
   }
+
 ]
 
 export default function Projects() {

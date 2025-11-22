@@ -53,16 +53,16 @@ export default function Resume() {
         >
           <div>
             <h3 style={{ fontSize: 24, color: "#00b4ff", marginBottom: 4 }}>
-              👨‍💻 KUNJ D. DESAI
+              👨‍💻 Ayush Pandey
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              4th Year B.Tech — AI & Data Science | S.C.E.T, Sarvajanik University
+              3th Year B.Tech CSE | Bhagwan Parshuram Institute of Technology, GGSIPU 
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              📍 Jahangirpura, Surat, Gujarat
+              
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
-              ✉️ kunjd2803@gmail.com | 📞 +91 8758209508
+              ✉️ pandeyayush260804@gmail.com | 📞 +91 9625022889
             </p>
           </div>
 
@@ -80,10 +80,9 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              4th-year B.Tech AI student experienced in ML, DL, and computer vision.
-              Skilled in Python, TensorFlow, PyTorch, and Scikit-learn. Passionate about
-              building impactful AI systems and seeking opportunities to contribute to
-              real-world AI projects.
+              3rd-year B.Tech student with strong experience in C++, Python, and Data Structures & Algorithms.
+              Skilled in full stack web development and currently exploring areas like computer organization, Java, databases and signals & systems.
+              Passionate about building efficient systems and looking to contribute to impactful technical projects.
             </p>
           </motion.div>
         </motion.div>
@@ -106,17 +105,15 @@ export default function Resume() {
           </h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             <li>
-              <strong>B.Tech in Artificial Intelligence & Data Science</strong> — S.C.E.T
-              (Sarvajanik University), 2022–2026 <br />
-              <span style={{ color: "#aaa" }}>GPA: 9.0</span>
+              <strong>B.Tech in CSE</strong> — BPIT, GGSIPU, 2023–2027 <br />
+              <span style={{ color: "#aaa" }}>GPA: 8.5</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — R.S.M. Poonawala Experimental School</strong> (Gujarat
-              Board, 2022) <br />
-              <span style={{ color: "#aaa" }}>Percentage: 78%</span>
+              <strong>12th Board — JNV Mungeshpur, Delhi</strong> (CBSE, 2022) <br />
+              <span style={{ color: "#aaa" }}>Percentage: 83%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — Ambika Niketan School</strong> (Gujarat Board, 2020)
+              <strong>10th Board — JNV Mungeshpur, Delhi</strong> (CBSE, 2020)
               <br />
               <span style={{ color: "#aaa" }}>Percentage: 85%</span>
             </li>
@@ -132,10 +129,11 @@ export default function Resume() {
         >
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            <li>1️⃣ Breast Cancer Detection from Mammograms using YOLO & CNN</li>
-            <li>2️⃣ DocuChat: Document Q&A Chatbot (Gemini API)</li>
-            <li>3️⃣ Indian Sign Language Interpreter (In Progress)</li>
-            <li>4️⃣ Mental Health Analyzer</li>
+            <li>1️⃣ TO-DO App — A simple and responsive task manager built using HTML, CSS, and JavaScript.</li>
+            <li>2️⃣ Netflix Clone — A clean and responsive UI clone of Netflix built with HTML and Tailwind CSS.</li>
+            <li>3️⃣ AIRBNB Clone — A modern and responsive UI clone created using HTML and Tailwind CSS.</li>
+            <li>4️⃣ Chrome Dino Game — A JS + Canvas implementation replicating the classic side-scrolling Dino game.</li>
+
           </ul>
         </motion.div>
 
@@ -149,26 +147,28 @@ export default function Resume() {
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>⚙️ Skills</h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
-              "Python",
               "C",
               "C++",
+              "Python",
               "Java",
-              "TensorFlow",
-              "PyTorch",
-              "Scikit-learn",
-              "OpenCV",
-              "YOLO",
-              "Streamlit",
+              "HTML",
+              "CSS",
+              "JavaScript",
               "React",
+              "Node.js",
+              "Express.js",
               "MySQL",
               "MongoDB",
               "Git",
-              "NLP",
-              "Explainable AI (XAI)",
-              "Problem Solving",
+              "DSA (Problem Solving)",
+              "OOP",
+              "Web Development",
               "Teamwork",
               "Adaptability",
               "Creativity",
+              "Communication",
+              "Time Management"
+
             ].map((skill) => (
               <motion.span
                 key={skill}
@@ -198,9 +198,9 @@ export default function Resume() {
           }}
         >
           {[
-            { name: "🏆 LeetCode", link: "https://leetcode.com/u/Kunj_2803/" },
-            { name: "💻 GitHub", link: "https://github.com/kunj2803" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/kunj-desai-07717b293/" },
+            { name: "🏆 LeetCode", link: "https://leetcode.com/u/pandey260804/" },
+            { name: "💻 GitHub", link: "https://github.com/pandeyayush260804" },
+            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/ayushpandey2608" },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -234,7 +234,7 @@ export default function Resume() {
         >
           <iframe
             src="/resume.pdf"
-            title="Kunj Desai Resume"
+            title="Ayush Pandey Resume"
             style={{
               width: "100%",
               height: "650px",

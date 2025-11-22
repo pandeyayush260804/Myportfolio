@@ -14,32 +14,33 @@ const SKILLS = [
   { name: "MySQL", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
   { name: "MongoDB", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   { name: "Git", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-  { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
   { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
   { name: "OpenCV", logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg" },
+  { name: "Tailwind CSS", logo: "../public/Tailwind.svg" },
+  { name: "Axios", logo: "../public/Azios.svg" },
+  { name: "NodeJs", logo: "../public/Node.js.svg" },
+  { name: "ExpressJs", logo: "../public/Express.svg" },
+  { name: "Socket.io", logo: "../public/socket.svg" },
 ];
 
 const ROWS = [
   [
-    { title: "Programming Languages", items: ["Python", "C", "C++", "Java"] },
-    { title: "Web Technologies", items: ["HTML", "CSS", "JavaScript", "React"] },
-    { title: "Databases & Tools", items: ["MySQL", "MongoDB", "Git"] },
-    { title: "Frameworks & Libraries", items: ["TensorFlow", "PyTorch", "OpenCV"] },
+    { title: "Programming Languages", items: ["C++", "C", "Java","Python" ] },
+    { title: "Web Technologies", items: ["HTML", "CSS", "JavaScript", "React","ExpressJS", "NodeJs"] },
+    { title: "Databases & Tools", items: ["MySQL", "MongoDB", "Git","PostMan"] },
+    { title: "Frameworks & Libraries", items: ["TensorFlow", "PyTorch", "OpenCV","Mediapipe"] },
   ],
   [
     {
       title: "Core Concepts",
       items: [
         "Data Structures & Algorithms",
-        "Machine Learning",
-        "Deep Learning",
-        "YOLO Object Detection",
-        "Explainable AI (XAI)",
+        "Full Stack Web Development",
       ],
     },
     {
       title: "Soft Skills",
-      items: ["Teamwork", "Problem Solving", "Creativity", "Adaptability", "Communication"],
+      items: ["Teamwork", "Leadership","Team Management" ,"Problem Solving", "Creativity", "Adaptability", "Communication"],
     },
   ],
 ];
@@ -97,8 +98,8 @@ export default function Skills() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-5xl text-cyan-400 font-semibold mb-3">My Skills</h2>
-        <div className="w-28 h-[2px] bg-cyan-400 mx-auto mb-6"></div>
+        <h2 className="text-5xl text-cyan-400 font-semibold mb-3"> <br></br>My Skills</h2>
+        <div className="w-28 h-[2px] bg-cyan-400 mx-auto mb-6"><br></br></div>
         <p className="text-gray-400 text-lg max-w-xl mx-auto">
           ✨ Technical expertise blended with creativity — explore my core competencies below.
         </p>

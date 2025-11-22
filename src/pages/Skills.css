@@ -33,8 +33,8 @@
 .skills-stage {
   position: relative;
   width: 94%;              /* slightly wider so less left/right margin */
-  max-width: 1200px;
-  height: 360px;           /* reduced height (change this number to your exact preference) */
+  max-width: 1300px;
+  height: 450px;           /* reduced height (change this number to your exact preference) */
   margin: 20px auto;       /* small vertical gap only */
   border-radius: 14px;
   background: radial-gradient(circle at 50% 50%, #080808, #0f0f0f);

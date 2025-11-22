@@ -50,32 +50,42 @@ const AboutMe = () => {
 
         {/* --- Description --- */}
         <p
-          style={{
-            fontSize: "1.1rem",
-            color: "rgba(255,255,255,0.85)",
-            marginBottom: "1rem",
-          }}
-        >
-          Hi, I’m <strong>Kunj Desai</strong> — an aspiring{" "}
-          <strong>Artificial Intelligence Engineer</strong> and{" "}
-          <strong>Machine Learning enthusiast</strong> who loves turning ideas
-          into intelligent systems. I’m deeply fascinated by how data and
-          algorithms can shape the future of healthcare, automation, and
-          creativity in technology.
-        </p>
+  style={{
+    fontSize: "1.1rem",
+    color: "rgba(255,255,255,0.85)",
+    marginBottom: "1rem",
+  }}
+>
+  Hi, I’m <strong>Ayush Pandey</strong> — a dedicated{" "}
+  <strong>Software Developer</strong> and{" "}
+  <strong>Computer Science enthusiast</strong> with a strong interest in
+  building efficient systems, solving complex problems, and understanding the
+  engineering that drives modern technology.
+</p>
 
-        <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
-          Beyond code, I enjoy exploring design, experimenting with motion and
-          interaction, and finding ways to blend{" "}
-          <strong>artistic creativity</strong> with{" "}
-          <strong>technical precision</strong>. My goal is to build solutions
-          that not only perform — but also inspire.
-        </p>
+<p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
+  Beyond code, I enjoy exploring logical design, analyzing complex systems, and
+  diving deep into how different components of computing interact. I follow a{" "}
+  <strong>focused learning approach</strong>, blending structured thinking with
+  <strong> technical precision</strong> to build solutions that are clean,
+  meaningful, and well-engineered.
+</p>
 
-        <p>
-            4th-year B.Tech AI Engineering student with hands-on experience in ML & DL Projects. Proficient in Python, scikitlearn,pytorch,tensorflow and data preprocessing. Seeking internship opportunities to apply skills and contribute to
-            impactful AI solutions.
-        </p>
+<p
+  style={{
+    fontSize: "1.1rem",
+    color: "rgba(255,255,255,0.75)",
+  }}
+>
+  3rd-year B.Tech student in Computer Science with strong foundations in
+  <strong> DSA, Web Development, Computer Organization, Databases,
+  Numericals, Theory of Computation,</strong> and{" "}
+  <strong>Signals & Systems</strong>. Skilled in C++, Python, Java basics,
+  SQL, and frontend/backend development. Actively seeking opportunities to
+  apply my knowledge, contribute to impactful engineering work, and grow as a
+  developer.
+</p>
+
 
         {/* --- Education Section --- */}
         <motion.div
@@ -131,7 +141,7 @@ const AboutMe = () => {
                     fontSize: "1.25rem",
                   }}
                 >
-                  B.Tech in Artificial Intelligence and Data Science
+                  B.Tech in Computer Science & Engineering
                 </h4>
                 <p
                   style={{
@@ -139,13 +149,12 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>S.C.E.T (Sarvajanik University)</strong> — Surat,
-                  Gujarat
+                  <strong>B.P.I.T (Bhagwan Parshuram Institue of Technology)</strong> — Delhi,India
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  4th Year (Pursuing) | GPA: 9.0
+                  3rd Year (Pursuing)
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>2022 – 2026</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>2023 – 2027</p>
               </div>
             </motion.div>
 
@@ -184,11 +193,10 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Ambika
-                  Niketan, Surat
+                  <strong>Jawahar Navodaya Vidyalaya, Mungeshpur</strong> — Mungeshpur, Delhi-110039
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 78%
+                  CBSE 
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2022</p>
               </div>
@@ -229,11 +237,10 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>R.S.M. Poonawala Experimental School</strong> — Surat,
-                  Gujarat
+                  <strong>Jawahar Navodaya Vidyalaya, Mungeshpur</strong> — Mungeshpur, Delhi-110039
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  Gujarat Board | Percentage: 69%
+                  CBSE
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2020</p>
               </div>
